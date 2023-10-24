@@ -1,4 +1,4 @@
-const buildOutput = (rnd) => ({
+const buildOutput = (rnd: number) => ({
   body: '{"hello": "world"}',
   headers: {
     'Content-Type': ['application/json'],

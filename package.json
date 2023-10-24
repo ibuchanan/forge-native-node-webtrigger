@@ -16,8 +16,13 @@
     "node": "18",
     "npm": "9"
   },
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "files": [
+    "out"
+  ],
   "devDependencies": {
-    "@forge/cli": "^6.20.1",
+    "@forge/cli": "^6.20",
     "@tsconfig/node18": "18",
     "@types/jest": "24",
     "@types/node": "18",
