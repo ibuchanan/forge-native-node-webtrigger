@@ -1,0 +1,11 @@
+modules:
+  webtrigger:
+    - key: forge-native-node-webtrigger
+      function: listener
+  function:
+    - key: listener
+      handler: index.listener
+app:
+  runtime:
+    name: nodejs18.x
+  id: ari:cloud:ecosystem::app/2686bdbd-1cd8-450e-b8ac-7f880dada1cb
