@@ -1,0 +1,43 @@
+{
+  "name": "forge-native-node-webtrigger",
+  "version": "0.0.0",
+  "description": "Example Forge app with a webtrigger written in Typescript",
+  "private": true,
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/ibuchanan/forge-native-node-webtrigger",
+  "contributors": [
+    "Ian Buchanan <ibuchanan@atlassian.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibuchanan/forge-native-node-webtrigger"
+  },
+  "engines": {
+    "node": "18",
+    "npm": "9"
+  },
+  "devDependencies": {
+    "@forge/cli": "^6.20.1",
+    "@tsconfig/node18": "18",
+    "@types/jest": "24",
+    "@types/node": "18",
+    "@typescript-eslint/eslint-plugin": "6",
+    "@typescript-eslint/parser": "6",
+    "typescript": "5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "forge-deploy": "forge deploy --no-verify",
+    "forge-install": "forge install",
+    "forge-install-list": "forge install list",
+    "forge-webtrigger": "forge webtrigger",
+    "forge-logs": "forge logs",
+    "forge-lint": "forge lint --fix",
+    "forge-lint:verbose": "forge lint --verbose",
+    "forge-login": "forge login",
+    "forge-register": "forge register",
+    "forge-restore": "forge restore",
+    "forge-tunnel": "forge tunnel",
+    "lint": "npm run forge-lint"
+  }
+}
