@@ -1,7 +1,12 @@
+import ice from node-icecream;
+
+// ic() is like console.log(), but better.
+const ic = ice({});
+
 export function listener(req: any) {
   try {
     const body = JSON.parse(req.body);
-    console.log(body);
+    ic(body);
     return {
       body: '{"hello": "world"}',
       headers: { "Content-Type": ["application/json"] },

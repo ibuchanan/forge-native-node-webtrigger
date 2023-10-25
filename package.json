@@ -44,5 +44,8 @@
     "forge-restore": "forge restore",
     "forge-tunnel": "forge tunnel",
     "lint": "npm run forge-lint"
+  },
+  "dependencies": {
+    "node-icecream": "^1.0.0"
   }
 }
