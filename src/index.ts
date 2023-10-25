@@ -1,4 +1,4 @@
-import ice from node-icecream;
+import ice from "node-icecream";
 
 // ic() is like console.log(), but better.
 const ic = ice({});
